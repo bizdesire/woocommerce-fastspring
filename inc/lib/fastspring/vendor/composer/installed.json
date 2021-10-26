@@ -1,0 +1,49 @@
+{
+    "packages": [
+        {
+            "name": "emileperron/fastspring-php",
+            "version": "v0.3.3",
+            "version_normalized": "0.3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/EmilePerron/fastspring-php.git",
+                "reference": "314067b625e1326d849d20dcc8cfc03359eb4a40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/EmilePerron/fastspring-php/zipball/314067b625e1326d849d20dcc8cfc03359eb4a40",
+                "reference": "314067b625e1326d849d20dcc8cfc03359eb4a40",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "time": "2020-10-03T17:04:19+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Emileperron\\FastSpring\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Émile Perron",
+                    "email": "contact@emileperron.com"
+                }
+            ],
+            "description": "A PHP wrapper library for the latest FastSpring API",
+            "support": {
+                "issues": "https://github.com/EmilePerron/fastspring-php/issues",
+                "source": "https://github.com/EmilePerron/fastspring-php/tree/v0.3.3"
+            },
+            "install-path": "../emileperron/fastspring-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
